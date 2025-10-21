@@ -1,5 +1,17 @@
 @import "tailwindcss";
 
+@theme {
+  --color-primary: #003366;
+  --color-secondary: #F2B705;
+  --color-accent: #7BA05B;
+
+  --color-background: #F9F9F9;
+  --color-text: #333333;
+
+  --gradient-primary: linear-gradient(90deg, #003366 0%, #F2B705 100%);
+  --gradient-accent: linear-gradient(90deg, #003366 0%, #7BA05B 100%);
+}
+
 * {
   box-sizing: border-box;
   outline: none;
@@ -23,7 +35,7 @@
 }
 
 .btn:hover {
-  background-color: #F2B705; 
-  color: #003366;
-  border-color: #003366;
+  background-color: transparent; 
+  color: #7BA05B;
+  border-color: #7BA05B;
 }
