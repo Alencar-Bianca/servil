@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 
 import './menu.css';
 import logo from '../../assets/imgs/logo/logopng.png';
+import bannerDesktop from '../../assets/imgs/logo/banner-desktop.png';
 
 
 export default function Menu() { 
@@ -22,15 +23,20 @@ export default function Menu() {
           </li>
         </ul>
       </div>
-      <nav className="content flex  items-center gap-3 pr-4">
-        <Link to={'/'}>
-        <img className='w-[160px]' src={logo} alt="Logo Servil" />
-        </Link>
-        <ul className="flex gap-6 text-lg font-medium justify-center w-full">
-          <li className='hover:text-accent'><Link to={'/'}>Home</Link></li>
-          <li className='hover:text-accent'><Link to={'/'}>Contato</Link></li>
-        </ul>
+      <nav className="  bg-[#dfdfdf]">
+        <div className=' content flex items-center gap-3 pr-4'>
+          <Link to={'/'} className='w-[90px]'>
+          <img className='w-full' src={logo} alt="Logo Servil" />
+          </Link>
+          <ul className="flex gap-6 text-lg font-medium justify-center w-full">
+            <li className='hover:text-accent'><Link to={'/'}>Home</Link></li>
+            <li className='hover:text-accent'><Link to={'/'}>Contato</Link></li>
+          </ul>
+          </div>
       </nav>
+      <figure>
+        <img src={bannerDesktop} alt="" />
+      </figure>
     </header>
   );
 }
