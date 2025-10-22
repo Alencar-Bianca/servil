@@ -1,7 +1,6 @@
 import { CiInstagram } from 'react-icons/ci';
 import { Link } from 'react-router-dom';
 
-import './menu.css';
 import logo from '../../assets/imgs/logo/logopng.png';
 import bannerDesktop from '../../assets/imgs/logo/banner-desktop.png';
 
@@ -28,7 +27,7 @@ export default function Menu() {
           <Link to={'/'} className='w-[90px]'>
           <img className='w-full' src={logo} alt="Logo Servil" />
           </Link>
-          <ul className="flex gap-6 text-lg font-medium justify-center w-full">
+          <ul className="flex gap-6 text-lg font-medium justify-center w-full font-thin">
             <li className='hover:text-accent'><Link to={'/'}>Home</Link></li>
             <li className='hover:text-accent'><Link to={'/'}>Contato</Link></li>
           </ul>
