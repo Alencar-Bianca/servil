@@ -9,7 +9,7 @@ export default function OurWork() {
       <div className="content ">
         <h2 className="font-bold text-3xl inline">Clientes </h2><span className="text-gray-500 text-base">(trabalhamos com)</span>
         <div className="clients flex">
-          <figure className="w-full flex justify-center items-center mt-5 flex-wrap md:justify-between">
+          <figure className="w-full flex justify-center items-center mt-5 flex-wrap gap-10">
             <img className="w-64" src={hospsp} alt="Hospital São Paulo" />
             <img className="w-64" src={maltec} alt="Maltec" />
             <img className="w-64" src={paci} alt="Paci" />
