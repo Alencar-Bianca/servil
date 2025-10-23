@@ -2,7 +2,7 @@ export default function Solution() {
   return (
     <section className="py-10 bg-primary text-white">
       <div className="content max-w-3xl mx-auto">
-        <div className="flex justify-between items-center gap-6 flex-wrap">
+        <div className="flex  items-center gap-6 flex-wrap justify-between flex-col md:flex-row">
           <h2 className="font-bold text-3xl mb-2 flex-1">
             Soluções <span className="text-secondary text-base font-normal">(sob medida para o seu negócio)</span>
           </h2>
