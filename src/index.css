@@ -25,7 +25,7 @@
 }
 
 .btn {
-  background: #003366; 
+  background: var(--gradient-accent);
   color: #F2B705; 
   font-weight: 600;
   padding: 8px 6px;

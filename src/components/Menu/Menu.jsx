@@ -2,7 +2,7 @@ import { CiInstagram, CiMapPin } from 'react-icons/ci';
 import { Link } from 'react-router-dom';
 
 import logo from '../../assets/imgs/logo/logopng.png';
-import bannerDesktop from '../../assets/imgs/logo/banner-desktop.png';
+import bannerDesktop from '../../assets/imgs/logo/banner-desktop.jpg';
 
 
 export default function Menu() { 
